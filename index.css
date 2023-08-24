@@ -1,0 +1,35 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  background-color: hsl(0, 0%, 100%);
+  max-width: 300px;
+  border-radius: 18px;
+  margin: 20vh;
+}
+
+#container img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+#container h3 {
+  font: outfit 700;
+  text-align: center;
+}
+#container p {
+  font: outfit 15px 400;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
